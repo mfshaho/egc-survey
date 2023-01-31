@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(../styles/font/Celias/stylesheet.css);
+@import url(../styles/font/Nordeco/stylesheet.css);
+@import url(../styles/font/SF-Arabic/stylesheet.css);
+@layer base {
+	body {
+		margin: auto;
+	}
+	:root {
+	  --color-primary1: 102 252 38;
+	  --color-primary2: 36 61 26;
+	  --color-primary3: 70 180 24;
+
+	  --color-dark: 35 35 35;
+	  --color-darker: 28 28 28;
+	  --color-ds: 64 138 32;
+	
+	  /* 248 249 250 */
+	  --color-l: 187 187 187;
+	  --color-light: 237 237 237;
+	  --color-lighter: 249 249 249;
+	  --color-light-skeleton: 224 224 224;
+	  --color-ls: 59 59 59;
+	}
+
+	::selection {
+		background: rgb(102,252,38);
+		color: rgb(35,35,35)
+	}
+	* {
+		/* font-family: Celias, sans-serif; */
+		transition: all 200ms;
+	}
+
+	.rounded-xl {
+		-webkit-border-radius: 0.5rem;
+		-moz-border-radius: 0.5rem;
+		-ms-border-radius: 0.5rem;
+	}
+	.button {
+		@apply flex justify-center cursor-pointer items-center px-4 text-light bg-dark rounded-lg outline-2 outline-solid outline-lstroke dark:hover:bg-opacity-0;
+	}
+	.button-ui {
+		@apply flex justify-center bg-primary2 cursor-pointer outline-solid outline-dstroke px-4 py-1 rounded-lg hover:bg-opacity-0
+	}
+	.outline-solid {
+		outline-style: solid;
+	}
+	.hero {
+		width: 100%;
+		height: 500px;
+		background: url('/hero/2.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		border-radius: 22px;
+		filter: grayscale(1);
+	}
+	.hero:hover {
+		filter: grayscale(0);
+	}
+	.media {
+		filter: invert(50%) sepia(15%) saturate(0%) hue-rotate(333deg) brightness(82%) contrast(81%);
+	}
+	.media:hover {
+		filter: none;
+	}
+	.post {
+		transition: all 400ms;
+	}
+	.post:hover {
+		box-shadow: 1px 1px 30px 4px rgba(102,252,38,0.08);
+		-webkit-box-shadow: 1px 1px 30px 4px rgba(102,252,38,0.08);
+		-moz-box-shadow: 1px 1px 30px 4px rgba(102,252,38,0.08);
+	}
+
+
+	}
