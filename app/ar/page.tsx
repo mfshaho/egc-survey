@@ -27,6 +27,7 @@ export default function Arabic() {
           <label htmlFor="">
             <div className="text-2xl">بريدك الالكتروني*</div>
             <input
+              required
               type="email"
               name="entry.1740200965"
               placeholder="اجابتك..."
@@ -40,14 +41,15 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              required
+              id="1"
               type="radio"
               value="مؤسسة خاصة"
               name="entry.1119778135"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="1"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; مؤسسة خاصة
@@ -56,14 +58,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="2"
               type="radio"
               value="مؤسسة حكومية"
               name="entry.1119778135"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="2"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; مؤسسة حكومية
@@ -72,14 +74,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="3"
               type="radio"
               value="منظمة غير حكومية"
               name="entry.1119778135"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="3"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; منظمة غير حكومية
@@ -88,14 +90,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="4"
               type="radio"
               value="مركز بحثي"
               name="entry.1119778135"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="4"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; مركز بحثي
@@ -136,6 +138,7 @@ export default function Arabic() {
             {" "}
             <div className="text-2xl">بلد المؤسسة:</div>
             <select
+              required
               name="entry.306491599"
               className="bg-lighter dark:bg-darker p-3 rounded-xl w-full"
             >
@@ -369,14 +372,15 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              required
+              id="11"
               type="radio"
               value="نشاط أقوم به حاليا"
               name="entry.1234420270"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="11"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; نشاط أقوم به حاليا
@@ -385,14 +389,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="22"
               type="radio"
               value="نشاط أخطط للقيام به"
               name="entry.1234420270"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="22"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; نشاط أخطط للقيام به
@@ -401,14 +405,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="33"
               type="radio"
               value="هدف أعمل على دعمه وتشجيعه حاليا"
               name="entry.1234420270"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="33"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; هدف أعمل على دعمه وتشجيعه حاليا
@@ -417,14 +421,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="44"
               type="radio"
               value="هدف أخطط لتشجيعه ودعمه"
               name="entry.1234420270"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="44"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; هدف أخطط لتشجيعه ودعمه
@@ -454,14 +458,15 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              required
+              id="111"
               type="radio"
               value="القوانين والتشريعات الاقتصادية: قوانين الاستثمار- حقوق التملك- الضرائب وغيرها."
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="111"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; القوانين والتشريعات الاقتصادية: قوانين الاستثمار- حقوق
@@ -471,14 +476,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="222"
               type="radio"
               value="السياسات التجارية والمالية: الرسوم الكمركية- الإعفاءات الضريبية- دعم المستثمرين والمشاريع الاستثمارية"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="222"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; السياسات التجارية والمالية: الرسوم الكمركية- الإعفاءات
@@ -488,14 +493,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="333"
               type="radio"
               value="الإجراءات الإدارية: سهولتها وتكاليفها"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="333"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; الإجراءات الإدارية: سهولتها وتكاليفها
@@ -504,14 +509,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="444"
               type="radio"
               value="الأجور: هيكل الأجور حسب القطاعات وحسب الخبرة والتحصيل الدراسي"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="444"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; الأجور: هيكل الأجور حسب القطاعات وحسب الخبرة والتحصيل
@@ -521,14 +526,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="555"
               type="radio"
               value="المنتجات والخدمات: أسعارها وحجم الطلب عليها ومصادر توفيرها"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="555"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; المنتجات والخدمات: أسعارها وحجم الطلب عليها ومصادر توفيرها
@@ -537,14 +542,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="666"
               type="radio"
               value="المدخلات: الموردون لها وأسعارها"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="666"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; المدخلات: الموردون لها وأسعارها
@@ -553,14 +558,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="777"
               type="radio"
               value="خدمات الكهرباء والاتصالات والنقل: مدى توفرها وأسعارها"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="777"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; خدمات الكهرباء والاتصالات والنقل: مدى توفرها وأسعارها
@@ -569,14 +574,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="888"
               type="radio"
               value="البنى التحتية طرق- مخازن-موانئ- مطارات: مدى توفرها وتكاليف استخدامها"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="888"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; البنى التحتية طرق- مخازن-موانئ- مطارات: مدى توفرها وتكاليف
@@ -586,14 +591,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="999"
               type="radio"
               value="مدى توفر الخدمات المالية والمصرفية"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="999"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; مدى توفر الخدمات المالية والمصرفية
@@ -602,14 +607,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="101010"
               type="radio"
               value="مدى توفر العمالة الماهرة والمحترفة"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="101010"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; مدى توفر العمالة الماهرة والمحترفة
@@ -618,14 +623,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Governmental"
+              id="111111"
               type="radio"
               value="المنافسون: عددهم وإمكاناتهم الاقتصادية"
               name="entry.1180658350"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Governmental"
+              htmlFor="111111"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; المنافسون: عددهم وإمكاناتهم الاقتصادية
@@ -653,14 +658,15 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              required
+              id="1111"
               type="radio"
               value="تحديد الفرص الاستثمارية"
               name="entry.795808512"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="1111"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; تحديد الفرص الاستثمارية
@@ -669,14 +675,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              id="2222"
               type="radio"
               value="معرفة مدى ملائمة بيئة معينة للأنشطة الاستثمارية"
               name="entry.795808512"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="2222"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; معرفة جدوى مشاريع معينة
@@ -685,14 +691,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              id="3333"
               type="radio"
               value="معرفة مدى ملائمة بيئة معينة للأنشطة الاستثمارية"
               name="entry.795808512"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="3333"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; معرفة مدى ملائمة بيئة معينة للأنشطة الاستثمارية
@@ -701,14 +707,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              id="4444"
               type="radio"
               value="معرفة اتجاهات الطلب في السوق"
               name="entry.795808512"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="4444"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; معرفة اتجاهات الطلب في السوق
@@ -717,14 +723,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              id="5555"
               type="radio"
               value="معرفة المنافسين"
               name="entry.795808512"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="5555"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; معرفة المنافسين
@@ -733,14 +739,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              id="6666"
               type="radio"
               value="معرفة مستويات المعيشة"
               name="entry.795808512"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="6666"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; معرفة مستويات المعيشة
@@ -749,14 +755,14 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <input
-              id="Private"
+              id="7777"
               type="radio"
               value="معرفة هيكل قوة العمل"
               name="entry.795808512"
               className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             />
             <label
-              htmlFor="Private"
+              htmlFor="7777"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
               &nbsp; معرفة هيكل قوة العمل
@@ -765,7 +771,7 @@ export default function Arabic() {
 
           <div className="flex items-center mb-4">
             <label
-              htmlFor="Governmental"
+              htmlFor=""
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300 flex items-center gap-5"
             >
               اخرى:
