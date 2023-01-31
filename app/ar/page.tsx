@@ -50,7 +50,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              مؤسسة خاصة
+              &nbsp; مؤسسة خاصة
             </label>
           </div>
 
@@ -66,7 +66,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              مؤسسة حكومية
+              &nbsp; مؤسسة حكومية
             </label>
           </div>
 
@@ -82,7 +82,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              منظمة غير حكومية
+              &nbsp; منظمة غير حكومية
             </label>
           </div>
 
@@ -98,7 +98,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              مركز بحثي
+              &nbsp; مركز بحثي
             </label>
           </div>
 
@@ -379,7 +379,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              نشاط أقوم به حاليا
+              &nbsp; نشاط أقوم به حاليا
             </label>
           </div>
 
@@ -395,7 +395,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              نشاط أخطط للقيام به
+              &nbsp; نشاط أخطط للقيام به
             </label>
           </div>
 
@@ -411,7 +411,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              هدف أعمل على دعمه وتشجيعه حاليا
+              &nbsp; هدف أعمل على دعمه وتشجيعه حاليا
             </label>
           </div>
 
@@ -427,7 +427,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              هدف أخطط لتشجيعه ودعمه
+              &nbsp; هدف أخطط لتشجيعه ودعمه
             </label>
           </div>
 
@@ -464,8 +464,8 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              القوانين والتشريعات الاقتصادية: قوانين الاستثمار- حقوق التملك-
-              الضرائب وغيرها.
+              &nbsp; القوانين والتشريعات الاقتصادية: قوانين الاستثمار- حقوق
+              التملك- الضرائب وغيرها.
             </label>
           </div>
 
@@ -481,8 +481,8 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              السياسات التجارية والمالية: الرسوم الكمركية- الإعفاءات الضريبية-
-              دعم المستثمرين والمشاريع الاستثمارية
+              &nbsp; السياسات التجارية والمالية: الرسوم الكمركية- الإعفاءات
+              الضريبية- دعم المستثمرين والمشاريع الاستثمارية
             </label>
           </div>
 
@@ -498,7 +498,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              الإجراءات الإدارية: سهولتها وتكاليفها
+              &nbsp; الإجراءات الإدارية: سهولتها وتكاليفها
             </label>
           </div>
 
@@ -514,7 +514,8 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              الأجور: هيكل الأجور حسب القطاعات وحسب الخبرة والتحصيل الدراسي
+              &nbsp; الأجور: هيكل الأجور حسب القطاعات وحسب الخبرة والتحصيل
+              الدراسي
             </label>
           </div>
 
@@ -530,7 +531,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              المنتجات والخدمات: أسعارها وحجم الطلب عليها ومصادر توفيرها
+              &nbsp; المنتجات والخدمات: أسعارها وحجم الطلب عليها ومصادر توفيرها
             </label>
           </div>
 
@@ -546,7 +547,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              المدخلات: الموردون لها وأسعارها
+              &nbsp; المدخلات: الموردون لها وأسعارها
             </label>
           </div>
 
@@ -562,7 +563,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              خدمات الكهرباء والاتصالات والنقل: مدى توفرها وأسعارها
+              &nbsp; خدمات الكهرباء والاتصالات والنقل: مدى توفرها وأسعارها
             </label>
           </div>
 
@@ -578,7 +579,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              البنى التحتية طرق- مخازن-موانئ- مطارات: مدى توفرها وتكاليف
+              &nbsp; البنى التحتية طرق- مخازن-موانئ- مطارات: مدى توفرها وتكاليف
               استخدامها
             </label>
           </div>
@@ -595,7 +596,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              مدى توفر الخدمات المالية والمصرفية
+              &nbsp; مدى توفر الخدمات المالية والمصرفية
             </label>
           </div>
 
@@ -611,7 +612,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              مدى توفر العمالة الماهرة والمحترفة
+              &nbsp; مدى توفر العمالة الماهرة والمحترفة
             </label>
           </div>
 
@@ -627,7 +628,7 @@ export default function Arabic() {
               htmlFor="Governmental"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              المنافسون: عددهم وإمكاناتهم الاقتصادية
+              &nbsp; المنافسون: عددهم وإمكاناتهم الاقتصادية
             </label>
           </div>
 
@@ -662,7 +663,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              تحديد الفرص الاستثمارية
+              &nbsp; تحديد الفرص الاستثمارية
             </label>
           </div>
 
@@ -678,7 +679,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              معرفة جدوى مشاريع معينة
+              &nbsp; معرفة جدوى مشاريع معينة
             </label>
           </div>
 
@@ -694,7 +695,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              معرفة مدى ملائمة بيئة معينة للأنشطة الاستثمارية
+              &nbsp; معرفة مدى ملائمة بيئة معينة للأنشطة الاستثمارية
             </label>
           </div>
 
@@ -710,7 +711,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              معرفة اتجاهات الطلب في السوق
+              &nbsp; معرفة اتجاهات الطلب في السوق
             </label>
           </div>
 
@@ -726,7 +727,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              معرفة المنافسين
+              &nbsp; معرفة المنافسين
             </label>
           </div>
 
@@ -742,7 +743,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              معرفة مستويات المعيشة
+              &nbsp; معرفة مستويات المعيشة
             </label>
           </div>
 
@@ -758,7 +759,7 @@ export default function Arabic() {
               htmlFor="Private"
               className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
             >
-              معرفة هيكل قوة العمل
+              &nbsp; معرفة هيكل قوة العمل
             </label>
           </div>
 
@@ -791,7 +792,7 @@ export default function Arabic() {
           </label>
         </div>
 
-        <div className="bg-light hover:bg-light/50 dark:bg-dark dark:hover:bg-dark/50 cursor-pointer flex flex-col gap-8 p-5 rounded-xl lg:w-[800px] md:w-[400px] sm:w-[250px] my-5 mx-2 font-SFAr">
+        <div className="bg-light hover:hover:bg-[#4E75BA] dark:bg-dark dark:hover:bg-[#4E75BA] cursor-pointer flex flex-col gap-8 p-5 rounded-xl lg:w-[800px] md:w-[400px] sm:w-[250px] my-5 mx-2 font-SFAr">
           <input
             type="submit"
             value="أرسال"
