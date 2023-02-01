@@ -16,6 +16,20 @@ let enLang = (
     </div>
   </Link>
 );
+let soLang = (
+  <Link href="https://egc2022.com/" target="_blank">
+    <div className="bg-lighter dark:bg-darker hover:bg-[#4E75BA] font-semiBold px-4 py-2 rounded-xl cursor-pointer hover:bg-opacity-40 w-fit ml-auto mr-auto font-SFAr">
+      سەردانی ماڵپەڕەکە بکەن
+    </div>
+  </Link>
+);
+let kuLang = (
+  <Link href="https://egc2022.com/" target="_blank">
+    <div className="bg-lighter dark:bg-darker hover:bg-[#4E75BA] font-semiBold px-4 py-2 rounded-xl cursor-pointer hover:bg-opacity-40 font-Celias w-fit ml-auto mr-auto">
+      Serdana malperê bikin
+    </div>
+  </Link>
+);
 import { usePathname } from "next/navigation";
 const Header = () => {
   const pathname = usePathname();
@@ -30,6 +44,8 @@ const Header = () => {
       />
       {pathname === "/ar" ? arLang : ""}
       {pathname === "/en" ? enLang : ""}
+      {pathname === "/krd/sorani" ? soLang : ""}
+      {/* {pathname === "/krd/kurmanji" ? kuLang : ""} */}
     </div>
   );
 };

@@ -14,12 +14,12 @@ const Languages = () => {
             العربية
           </div>
         </Link>
-        <Link href="/krd/1">
+        <Link href="/krd/sorani">
           <div className="bg-light dark:bg-dark px-6 py-3 rounded-xl cursor-pointer hover:bg-opacity-40 font-SFAr">
             كوردى سۆڕانی
           </div>
         </Link>
-        <Link href="/krd/2">
+        <Link href="/krd/kurmanji">
           <div className="bg-light dark:bg-dark px-6 py-3 rounded-xl cursor-pointer hover:bg-opacity-40">
             Kurdî Kurmanjî
           </div>
