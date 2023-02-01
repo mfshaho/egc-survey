@@ -19,11 +19,11 @@ const Languages = () => {
             كوردى سۆڕانی
           </div>
         </Link>
-        <Link href="/krd/kurmanji">
+        {/* <Link href="/krd/kurmanji">
           <div className="bg-light dark:bg-dark px-6 py-3 rounded-xl cursor-pointer hover:bg-opacity-40">
             Kurdî Kurmanjî
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
