@@ -7,7 +7,7 @@ const InLang = () => {
   let unactiveLang =
     "bg-light dark:bg-dark px-4 py-2 rounded-xl cursor-pointer hover:bg-opacity-40 w-full";
   let activeLang =
-    "bg-[#4E75BA] font-semiBold px-4 py-2 rounded-xl cursor-pointer hover:bg-opacity-40 w-full";
+    "bg-[#27285C] font-semiBold px-4 py-2 rounded-xl cursor-pointer hover:bg-opacity-40 w-full";
 
   return (
     <div className="my-5">

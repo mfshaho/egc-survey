@@ -825,7 +825,7 @@ const Sorani = () => {
             </label>
           </div>
 
-          <div className="bg-light hover:bg-[#4E75BA] dark:bg-dark dark:hover:bg-[#4E75BA] cursor-pointer flex flex-col gap-8 p-5 rounded-xl lg:w-[800px] md:w-[400px] sm:w-[250px] my-5 mx-2">
+          <div className="bg-light hover:bg-[#27285C] dark:bg-dark dark:hover:bg-[#27285C] cursor-pointer flex flex-col gap-8 p-5 rounded-xl lg:w-[800px] md:w-[400px] sm:w-[250px] my-5 mx-2">
             <input
               type="submit"
               value="ناردن"
