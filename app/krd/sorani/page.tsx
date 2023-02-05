@@ -57,7 +57,7 @@ const Sorani = () => {
                 htmlFor="1"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                دامەزراوەی تایبەت
+                &nbsp;دامەزراوەی تایبەت
               </label>
             </div>
 
@@ -73,7 +73,7 @@ const Sorani = () => {
                 htmlFor="2"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                دامەزراوەی حكومی
+                &nbsp;دامەزراوەی حكومی
               </label>
             </div>
 
@@ -89,7 +89,7 @@ const Sorani = () => {
                 htmlFor="3"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                ڕێكخراوی ناحكومی
+                &nbsp;ڕێكخراوی ناحكومی
               </label>
             </div>
 
@@ -105,7 +105,7 @@ const Sorani = () => {
                 htmlFor="4"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                ناوەندی توێژینەوە
+                &nbsp;ناوەندی توێژینەوە
               </label>
             </div>
 
@@ -144,14 +144,14 @@ const Sorani = () => {
           <div className="bg-light dark:bg-dark flex flex-col gap-8 p-5 rounded-xl lg:w-[800px] md:w-[400px] sm:w-[250px] my-5 mx-2">
             <label htmlFor="">
               {" "}
-              <div className="text-2xl">شاری دامەزراوە:</div>
+              <div className="text-2xl">وڵاتی دامەزراوە:</div>
               <select
                 required
                 name="entry.306491599"
                 className="bg-lighter dark:bg-darker p-3 rounded-xl w-full"
               >
                 <option value="" className="text-dark/50 dark:text-light/50">
-                  شاریک هەلبژێرە...
+                  وڵاتێک هەڵبژێرە...
                 </option>
                 <option value="أفغانستان">Afghanistan</option>
                 <option value="ألبانيا">Albania</option>
@@ -399,7 +399,7 @@ const Sorani = () => {
                 htmlFor="11"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                ئێستا بەو چالاكییە هەڵدەستین
+                &nbsp;ئێستا بەو چالاكییە هەڵدەستین
               </label>
             </div>
 
@@ -415,7 +415,7 @@ const Sorani = () => {
                 htmlFor="22"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                پلان بۆ جێبەجێكردنی چالاكییەكە دادەنێین
+                &nbsp;پلان بۆ جێبەجێكردنی چالاكییەكە دادەنێین
               </label>
             </div>
 
@@ -431,7 +431,8 @@ const Sorani = () => {
                 htmlFor="33"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                ئامانج كاركردنە بۆ پشتیوانیكردن و هاندانی وەبەرهێنان لە ئێستادا
+                &nbsp;ئامانج كاركردنە بۆ پشتیوانیكردن و هاندانی وەبەرهێنان لە
+                ئێستادا
               </label>
             </div>
 
@@ -447,7 +448,7 @@ const Sorani = () => {
                 htmlFor="44"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                ئامانج پلاندانانە بۆ هاندان و پشتیوانیكردنی
+                &nbsp;ئامانج پلاندانانە بۆ هاندان و پشتیوانیكردنی
               </label>
             </div>
 
@@ -489,7 +490,7 @@ const Sorani = () => {
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
                 یاساكان و پڕۆسەی یاسادانانی ئابووری: یاساكانی
-                وەبەرهێنان-مافەكانی خاوەندارییەتی-باج و شتەكانی دیكە.
+                &nbsp;وەبەرهێنان-مافەكانی خاوەندارییەتی-باج و شتەكانی دیكە.
               </label>
             </div>
 
@@ -506,7 +507,7 @@ const Sorani = () => {
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
                 سیاسەتە بازرگانی و داراییەكان: ڕەسمە گومرگییەكان-بەخشینەكانی
-                باج-پشتیوانیكردنی وەبەرهێنەران و پڕۆسە وەبەرهێنییەكان.
+                &nbsp;باج-پشتیوانیكردنی وەبەرهێنەران و پڕۆسە وەبەرهێنییەكان.
               </label>
             </div>
 
@@ -522,7 +523,7 @@ const Sorani = () => {
                 htmlFor="333"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                ڕێوشوێنە كارگێرییەكان: ئاسانكاری و تێچوونەكانی.
+                &nbsp;ڕێوشوێنە كارگێرییەكان: ئاسانكاری و تێچوونەكانی.
               </label>
             </div>
 
@@ -539,7 +540,7 @@ const Sorani = () => {
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
                 كرێیەكان: پەیكەری كرێیەكان بەپێی كەرتەكان و بەپێی پسپۆڕی و
-                بڕوانامەی خوێندن
+                &nbsp;بڕوانامەی خوێندن
               </label>
             </div>
 
@@ -556,7 +557,7 @@ const Sorani = () => {
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
                 بەرهەمەكان و خزمەتگوزارییەكان: نرخەكان و قەبارەی خواست لەسەریان
-                و سەرچاوەكانی بەردەستخستنیان
+                &nbsp;و سەرچاوەكانی بەردەستخستنیان
               </label>
             </div>
 
@@ -572,7 +573,7 @@ const Sorani = () => {
                 htmlFor="666"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                هاوردەكان: سەرچاوەكانیان و نرخەكانیان
+                &nbsp;هاوردەكان: سەرچاوەكانیان و نرخەكانیان
               </label>
             </div>
 
@@ -589,7 +590,7 @@ const Sorani = () => {
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
                 خزمەتگوزاریی كارەبا و پەیوەندییەكان و گواستنەوە: مەودای
-                بەردەستبوون و نرخەكانیان
+                &nbsp;بەردەستبوون و نرخەكانیان
               </label>
             </div>
 
@@ -606,7 +607,7 @@ const Sorani = () => {
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
                 ژێرخانی ڕێگەكان-كۆگاكان-دەروازەكان-فڕۆكەخانەكان: توانای
-                بەردەستبوونیان و تێچوون و بەكارهێنانیان
+                &nbsp;بەردەستبوونیان و تێچوون و بەكارهێنانیان
               </label>
             </div>
 
@@ -622,7 +623,7 @@ const Sorani = () => {
                 htmlFor="999"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                توانای بەردەستبوونی دارایی و بانكی
+                &nbsp;توانای بەردەستبوونی دارایی و بانكی
               </label>
             </div>
 
@@ -638,7 +639,7 @@ const Sorani = () => {
                 htmlFor="101010"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                توانای بەردەستبوونی توانای مرۆیی لێهاتوو و پیشەیی
+                &nbsp;توانای بەردەستبوونی توانای مرۆیی لێهاتوو و پیشەیی
               </label>
             </div>
 
@@ -654,7 +655,7 @@ const Sorani = () => {
                 htmlFor="111111"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                كێبەركێكاران: ژمارەیان و توانا ئابوورییەكانیان
+                &nbsp;كێبەركێكاران: ژمارەیان و توانا ئابوورییەكانیان
               </label>
             </div>
 
@@ -691,7 +692,7 @@ const Sorani = () => {
                 htmlFor="1111"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                دیاریكردنی هەلەكانی وەبەرهێنان{" "}
+                &nbsp;دیاریكردنی هەلەكانی وەبەرهێنان{" "}
               </label>
             </div>
 
@@ -707,7 +708,7 @@ const Sorani = () => {
                 htmlFor="2222"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                زانینی جەدوای پڕۆژە دیاریكراوەكان{" "}
+                &nbsp;زانینی جەدوای پڕۆژە دیاریكراوەكان{" "}
               </label>
             </div>
 
@@ -723,7 +724,8 @@ const Sorani = () => {
                 htmlFor="3333"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                زانینی توانای گونجاوی ژینگەی دیاریكراو بۆ چالاكیی وەبەرهێنان
+                &nbsp;زانینی توانای گونجاوی ژینگەی دیاریكراو بۆ چالاكیی
+                وەبەرهێنان
               </label>
             </div>
 
@@ -739,7 +741,7 @@ const Sorani = () => {
                 htmlFor="4444"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                زانینی ئاراستەكانی خواست لە بازاڕدا{" "}
+                &nbsp;زانینی ئاراستەكانی خواست لە بازاڕدا{" "}
               </label>
             </div>
 
@@ -755,7 +757,7 @@ const Sorani = () => {
                 htmlFor="5555"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                ناسینی كێبەركێكارەكان{" "}
+                &nbsp;ناسینی كێبەركێكارەكان{" "}
               </label>
             </div>
 
@@ -771,7 +773,7 @@ const Sorani = () => {
                 htmlFor="6666"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                زانینی ئاستەكانی بژێوی{" "}
+                &nbsp;زانینی ئاستەكانی بژێوی{" "}
               </label>
             </div>
 
@@ -787,7 +789,7 @@ const Sorani = () => {
                 htmlFor="7777"
                 className="ml-2 text-base font-medium text-gray-900 dark:text-gray-300"
               >
-                زانینی پەیكەری هێزی كار{" "}
+                &nbsp;زانینی پەیكەری هێزی كار{" "}
               </label>
             </div>
 
