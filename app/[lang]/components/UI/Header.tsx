@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import Container from "./Container";
-import Link from "next/link";
+import Image from "next/image";
 import LocaleSwitcher from "../Locale-swithcer";
+import { icons } from "@/utils/imagesURL";
 import { motion } from "framer-motion";
 import { useColorScheme } from "@/utils";
 function capitalize(str: string) {
@@ -11,9 +12,8 @@ function capitalize(str: string) {
   });
 }
 
-const logo: string = "/eg.png";
-import Image from "next/image";
 function Header({ data }: any) {
+  const colorScheme = useColorScheme();
   return (
     <motion.div
       initial={{ opacity: 0, translateY: -25 }}
@@ -26,12 +26,15 @@ function Header({ data }: any) {
             <div className="flex justify-between items-center">
               <div className="flex items-center">
                 <Image
-                  src={logo}
+                  src={
+                    colorScheme === "light" ? icons.logoLight : icons.logoDark
+                  }
                   width={200}
                   height={200}
                   alt="logo"
                   className="w-20"
                 />
+
                 <div className="flex flex-col gap-0 items-start">
                   <div className="text-[26.5px] max-md:text-[18px]">
                     {capitalize(data.web.name)}
