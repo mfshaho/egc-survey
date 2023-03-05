@@ -40,7 +40,7 @@ export default function Admin() {
   };
 
   const fetchData = async () => {
-    if (auth === "2002") {
+    if (auth === process.env.ADMIN_KEY) {
       const result = await fetch(`/api/surveydb`);
 
       const data: survey[] = await result.json();
