@@ -24,7 +24,7 @@ function Header({ data }: any) {
         <div className="w-full">
           <Container>
             <div className="flex justify-between items-center">
-              <div className="flex items-center">
+              <div className="flex items-center gap-4">
                 <Image
                   src={
                     colorScheme === "light" ? icons.logoLight : icons.logoDark
@@ -32,7 +32,7 @@ function Header({ data }: any) {
                   width={200}
                   height={200}
                   alt="logo"
-                  className="w-20"
+                  className="w-12"
                 />
 
                 <div className="flex flex-col gap-0 items-start">
