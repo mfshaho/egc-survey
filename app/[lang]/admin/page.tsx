@@ -40,7 +40,7 @@ export default function Admin() {
   };
 
   const fetchData = async () => {
-    if (auth === process.env.ADMIN_KEY?.toString()) {
+    if (auth === "2002") {
       const result = await fetch(`/api/surveydb`);
 
       const data: survey[] = await result.json();
@@ -111,6 +111,7 @@ export default function Admin() {
           >
             FETCH
           </button>
+          {process.env.ADMIN_KEY}
         </div>
         <div className="flex gap-4 items-center">
           {data != null && (
